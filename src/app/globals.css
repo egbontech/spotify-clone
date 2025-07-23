@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-black: #000000;
+  --color-primary: #1DB954;
+  --color-background: #121212;
+  --color-hover: #181818;
+  --color-primary-text: #EAEAEA;
+  --color-secondary-text: #B3B3B3;
+  --color-border: #282828;
+  --color-danger: #E02424;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0; 
+}
