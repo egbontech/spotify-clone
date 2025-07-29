@@ -54,7 +54,7 @@ export default function DeleteButton({
   return (
     <button
       onClick={() => deleteSong()}
-      className="text-secondary-text absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer hidden group-hover:block"
+      className="text-secondary-text absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer hidden group-hover:block z-100"
     >
       <FaTrash />
     </button>
